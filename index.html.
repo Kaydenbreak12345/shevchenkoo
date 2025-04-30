@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тарас Шевченко</title>
+</head>
+<body>
+  <h1>Портрет Тараса Шевченка</h1>
+
+  <!-- Вставка своей картинки -->
+  <img src="https://github.com/твое_имя/репозиторий/путь_к_файлу/название_картинки.jpg" usemap="#shevchenko-map" alt="Шевченко" width="400" height="auto">
+
+  <!-- Определяем область на изображении -->
+  <map name="shevchenko-map">
+    <!-- Пример координат, которые нужно заменить на свои -->
+    <area shape="rect" coords="60,40,280,300" href="https://uk.wikipedia.org/wiki/Тарас_Шевченко" target="_blank" title="Тарас Шевченко">
+  </map>
+
+  <p>Нажмите на портрет, чтобы узнать больше о Тарасе Шевченко.</p>
+
+</body>
+</html>
